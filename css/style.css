@@ -1,0 +1,163 @@
+/* ========= RESET ======== */
+* {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(248, 222, 78);
+}
+
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 45px;
+	margin-top: 17px;
+	margin-bottom: 50px;
+	color: rgb(84, 58, 3);
+}
+/* ========= PADROES IMG BUTTONS ======== */
+.img-pc img{
+	width: 60px;
+}
+
+.img-j img{
+	width: 60px;
+}
+
+.opcoes button{
+	width: 95px;
+	height: 90px;
+}
+
+.img-pedra {
+	width: 60px;
+	height: 60px;
+}
+
+.img-papel {
+	width: 60px;
+	height: 60px;
+}
+
+.img-tesoura {
+	width: 60px;
+	height: 60px;
+}
+
+.vs{
+	width: 225px;
+	height: 185px;
+	margin-left: 85px;
+	margin-right: 85px;
+}
+
+/* ========= CONFIG PAINEL DE IMAGENS PLAYER & COMPUTER ======== */
+.main-button-style{
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+	align-items: center;
+}
+
+.img-pc{
+	padding: 25px;
+	border: 3px solid white;
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px rgb(41, 19, 19);
+}
+
+.img-j{
+	padding: 25px;
+	border: 3px solid white;
+	border-radius: 15px;
+	box-shadow: 3px 3px 5px rgb(41, 19, 19);
+}
+
+.pontuacaoJogador{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	display: flex;
+	color: rgb(218, 100, 9);
+}
+
+.pontuacaoJogador p {
+	font-size: 20px;
+	margin-top: 1.9px;
+	margin-bottom: 15px;
+	margin-left: 2px;
+	color: rgb(218, 100, 9);
+}
+
+.pontuacaoComputador{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	display: flex;
+	color: rgb(218, 100, 9);
+}
+
+.pontuacaoComputador p {
+	font-size: 20px;
+	margin-top: 1.9px;
+	margin-bottom: 15px;
+	margin-left: 2px;
+	color: rgb(218, 100, 9);
+}
+
+.button-img img{
+	padding-right: 23px;
+}
+
+.button-imgp img{
+	padding-right: 23px;
+}
+
+/* ========= CONFIG MAIN & BUTTONS DE COMANDOS ======== */
+.jogadas{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 45px;
+	color: rgb(218, 100, 9);
+}
+
+.jogadasEsquerda{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: rgb(52, 23, 2);
+}
+
+.opcoes{
+	display: flex;
+	justify-content: center;
+}
+
+.opcoes button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 15px;
+	margin-top: 18px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.result{
+	display: flex;
+	justify-content: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: red;
+}
+
+.reload{
+	display: flex;
+	justify-content: center;
+	margin-top: 18px;
+	font-size: 25px;
+	background-color: rgb(218, 100, 9);
+	margin-left: 27rem;
+	margin-right: 27rem;
+	border-radius: 9px;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	cursor: pointer;
+}

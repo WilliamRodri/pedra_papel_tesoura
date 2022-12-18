@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Jogo: Pedra, Papel e Tesoura</title>
+</head>
+
+<body>
+	<section class="game">
+
+		<!-- título -->
+		<h1 class="titulo">Pedra - Papel - Tesoura</h1>
+
+		<div class="main-button-style">
+
+			<div class="img-pc">
+
+				<div class="pontuacaoJogador">
+					<h2>Computador: </h2>
+					<p class="j-contador contador">0</p>
+				</div>
+
+				<div class="button-imgp">
+				<img class="pc-pedra" src="img/pedra.png" alt="pedra">
+				<img class="pc-papel" src="img/papel.png" alt="papel">
+				<img class="pc-tesoura" src="img/tesoura.png" alt="tesoura">
+				</div>
+
+			</div>
+
+			<img class="vs" src="img/vs.png" alt="">
+
+			<div class="img-j">
+
+				<div class="pontuacaoComputador">
+					<h2>Jogador: </h2>
+					<p class="c-contador contador">0</p>
+				</div>
+
+				<div class="button-img">
+				<img id="j-pedra" src="img/pedra-J.png" alt="pedra">
+				<img id="j-papel" src="img/papel-J.png" alt="papel">
+				<img id="j-tesoura" src="img/tesoura-J.png" alt="tesoura">
+				</div>
+
+			</div>
+
+			
+		</div>
+		<h3 class="jogadas">Escolha qual você vai usar:</h3>
+
+
+		<!-- Número de jogadas -->
+		<div class="jogadasEsquerda">Ataques Disponiveis: 10</div>
+
+		<!-- Opções de jogadas: pedra, papel e tesoura -->
+		<div class="opcoes">
+			<button onmouseover="pedra()" class="pedra">Pedra<img class="img-pedra" src="img/pedra.png"
+					alt=""></button>
+			<button onmouseover="papel()" class="papel">Papel<img class="img-papel" src="img/papel.png"
+					alt=""></button>
+			<button onmouseover="tesoura()" class="tesoura">Tesoura<img class="img-tesoura"
+					src="img/tesoura.png"></button>
+		</div>
+
+		<!-- Resultado Final do game -->
+		<div class="result"></div>
+
+		<!-- Recarregar o jogo -->
+		<div class="reload" onclick="window.location.reload()"></div>
+
+
+	</section>
+
+	<script src="js/game.js"></script>
+	<script src="js/buttons.js"></script>
+</body>
+
+</html>
